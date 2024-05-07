@@ -1,1 +1,1 @@
-Place all of your Frontend files into this directory.
+This directory contains all the source code for the frontend app

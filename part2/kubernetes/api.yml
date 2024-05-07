@@ -4,6 +4,7 @@ metadata:
   name: api
   namespace: howest-api
   labels:
+    # Replace this by your own name
     createdBy: "Nathan-Segers"
   
 spec:
@@ -17,11 +18,11 @@ spec:
         app: api
     spec:
       containers:
-        - image: nathansegers/containers_23-24_december_api
+        - image: nathansegers/big_data_and_ai-24_may_api
           imagePullPolicy: Always
           name: api-demo
           ports:
-            - containerPort: 8080
+            - containerPort: 80
           resources: {}
           livenessProbe:
             httpGet:
