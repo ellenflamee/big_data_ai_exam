@@ -1,0 +1,18 @@
+{
+  "ai-cloud": {
+    "title": "AI Cloud",
+    "semester": 4,
+    "weight": 20,
+    "tags": [
+      "AI-Integration",
+      "CognitiveServices",
+      "Cloud"
+    ],
+    "pillar": "analysis",
+    "tracks": [
+      "smart-xr-developer"
+    ],
+    "preview": "**Onder voorbehoud**\n\nArtificiële intelligentie (AI) is en blijft …",
+    "basename": "ai-cloud"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "advanced-ai": {
+    "title": "Advanced AI",
+    "semester": 5,
+    "weight": 10,
+    "tags": [
+      "advancedComputerVision",
+      "naturaLanguagePr.",
+      "reinforcementL."
+    ],
+    "pillar": "analysis",
+    "tracks": [
+      "ai-engineer"
+    ],
+    "preview": "De modules <a class=\"js-module-link\" …",
+    "basename": "advanced-ai"
+  }
+}

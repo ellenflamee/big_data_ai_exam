@@ -1,0 +1,16 @@
+{
+  "device-programming": {
+    "title": "Device Programming",
+    "semester": 3,
+    "weight": 10,
+    "tags": [
+      "csharp",
+      "xamarinforms",
+      "oop",
+      "android"
+    ],
+    "pillar": "code",
+    "preview": "Het doel van deze module is om **C#.NET** te leren en de concepten …",
+    "basename": "device-programming"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "deep-learning": {
+    "title": "Deep Learning",
+    "semester": 5,
+    "weight": 10,
+    "tags": [
+      "dsp",
+      "neural_networks"
+    ],
+    "pillar": "analysis",
+    "tracks": [
+      "ai-engineer"
+    ],
+    "preview": "De module deep learning gaat verder waar de <a …",
+    "basename": "deep-learning"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "project-3": {
+    "title": "Industry Project",
+    "semester": 4,
+    "weight": 50,
+    "tags": [
+      "agile",
+      "sprints",
+      "teamwork",
+      "companyprojects",
+      "deadlines"
+    ],
+    "pillar": "project",
+    "tracks": [
+      "next-web-developer",
+      "smart-xr-developer",
+      "ai-engineer",
+      "infrastructure-engineer"
+    ],
+    "preview": "**Na alle modules en examens uit Semester 4, volgt het …",
+    "basename": "project-3"
+  }
+}

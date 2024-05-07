@@ -1,0 +1,22 @@
+{
+  "backend-development": {
+    "title": "Backend Development",
+    "semester": 4,
+    "weight": 30,
+    "tags": [
+      "ASP",
+      "netcore",
+      "crossplatform",
+      "AI-Architectuur",
+      "Docker"
+    ],
+    "pillar": "code",
+    "tracks": [
+      "next-web-developer",
+      "ai-engineer"
+    ],
+    "tools": "Visual studio code, ASP.NET Core, Docker, Azure, ...",
+    "preview": "Hoe bouw je een API die je host in een public cloud plaform zoals …",
+    "basename": "backend-development"
+  }
+}

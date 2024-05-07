@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% if courses %}
+<h2>{% block title %} All courses {% endblock %}</h2>
+  <table id="data" class="table table-striped">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Tracks</th>
+        <th>Tags</th>
+        <th>Semester</th>
+        <th>Pillar</th>
+        <th>Preview</th>
+</tr>
+    </thead>
+    <tbody>
+      {% for c in courses %}
+        <tr>
+            <td>{{ c.title }}</td>
+            <td>{{ c.tracks | join(', ') | upper  if c.tracks is not none else 'NONE'}}</td>
+            <td>{{ c.tags | join(' | ') | upper }}</td>
+            <td>{{ c.semester }}</td>
+            <td>{{ c.pillar }}</td>
+            <td>{{ c.preview }}</td>
+      </tr>
+      {% endfor %}
+{% else %}
+      <div><h1>{{ error }}</h1></div>
+{% endif %}
+		{% block scripts %}
+			<script>
+				$(document).ready(function () {
+				  $('#data').DataTable();
+				});
+			</script>
+		{% endblock %}
+      
+    </tbody>
+  </table>
+{% endblock %}

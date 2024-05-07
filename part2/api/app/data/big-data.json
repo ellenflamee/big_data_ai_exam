@@ -1,0 +1,25 @@
+{
+  "big-data": {
+    "title": "Big Data",
+    "aliases": [
+      "artificial-intelligence-big-data"
+    ],
+    "semester": 4,
+    "weight": 20,
+    "tags": [
+      "timeseries",
+      "nosql",
+      "textsearch",
+      "mapreduce",
+      "spark",
+      "stream",
+      "batch"
+    ],
+    "pillar": "analysis",
+    "tracks": [
+      "ai-engineer"
+    ],
+    "preview": "Met **IoT sensor data** problemen voorspellen, transacties op een …",
+    "basename": "big-data"
+  }
+}

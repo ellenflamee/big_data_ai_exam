@@ -1,0 +1,18 @@
+{
+  "3D1": {
+    "title": "3D1 (DAE)",
+    "semester": 4,
+    "weight": 30,
+    "tags": [
+      "3D-Design",
+      "MAYA",
+      "Blender"
+    ],
+    "pillar": "design",
+    "tracks": [
+      "smart-xr-developer"
+    ],
+    "preview": "**Onder voorbehoud**\n\nIn de module 3D1 werken we samen met de …",
+    "basename": "3D1"
+  }
+}

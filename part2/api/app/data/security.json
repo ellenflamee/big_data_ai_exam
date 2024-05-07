@@ -1,0 +1,15 @@
+{
+  "security": {
+    "title": "Security",
+    "semester": 3,
+    "weight": 10,
+    "tags": [
+      "privacy",
+      "security",
+      "testing"
+    ],
+    "pillar": "connect",
+    "preview": "Studenten worden bewust gemaakt van de mogelijke bedreigingen die de …",
+    "basename": "security"
+  }
+}

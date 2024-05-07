@@ -1,0 +1,21 @@
+{
+  "virtualisation-cloud-computing-infrastructure": {
+    "title": "Virtualisation & Cloud Computing Infrastructure",
+    "semester": 4,
+    "weight": 30,
+    "tags": [
+      "vmware",
+      "hyperv",
+      "docker",
+      "kvm",
+      "lxc",
+      "hyperconverged"
+    ],
+    "pillar": "connect",
+    "tracks": [
+      "infrastructure-engineer"
+    ],
+    "preview": "In datacenteromgevingen is virtualisatie niet meer weg te denken. …",
+    "basename": "virtualisation-cloud-computing-infrastructure"
+  }
+}

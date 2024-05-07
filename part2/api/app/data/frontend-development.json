@@ -1,0 +1,20 @@
+{
+  "frontend-development": {
+    "title": "Frontend",
+    "Description": "Hoe kunnen we een performante user interface maken in de browser? We bekijken de volledige flow van een goede test-driven development omgeving tot optimalisatie in de browser.",
+    "semester": 4,
+    "weight": 10,
+    "tags": [
+      "typescript",
+      "scss",
+      "react"
+    ],
+    "pillar": "code",
+    "tracks": [
+      "next-web-developer"
+    ],
+    "tools": "Visual Studio Code, Chrome developer tools, React",
+    "preview": "We beginnen de module met een korte terugblik op eerdere modules. …",
+    "basename": "frontend-development"
+  }
+}

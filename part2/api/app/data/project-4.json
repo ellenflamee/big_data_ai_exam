@@ -1,0 +1,21 @@
+{
+  "project-4": {
+    "title": "Research Project",
+    "semester": 5,
+    "weight": 50,
+    "tags": [
+      "advancedintegration",
+      "start-up",
+      "choice"
+    ],
+    "pillar": "project",
+    "tracks": [
+      "next-web-developer",
+      "smart-xr-developer",
+      "ai-engineer",
+      "infrastructure-engineer"
+    ],
+    "preview": "In deze module zal er een research project uitgewerkt worden voor …",
+    "basename": "project-4"
+  }
+}

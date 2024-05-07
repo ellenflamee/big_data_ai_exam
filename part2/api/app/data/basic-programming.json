@@ -1,0 +1,14 @@
+{
+  "basic-programming": {
+    "title": "Basic Programming",
+    "semester": 1,
+    "weight": 10,
+    "tags": [
+      "principles",
+      "python"
+    ],
+    "pillar": "code",
+    "preview": "In deze module leren we de basisprincipes van programmeren aan via …",
+    "basename": "basic-programming"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "data-science": {
+    "title": "Data Science",
+    "semester": 1,
+    "weight": 30,
+    "tags": [
+      "informationextraction",
+      "datarepresentation",
+      "predicting"
+    ],
+    "pillar": "analysis",
+    "preview": "In data science bestaat de **uitdaging** erin om **uit** (grote …",
+    "basename": "data-science"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "future-technologies": {
+    "title": "Future Technologies",
+    "semester": 5,
+    "weight": 10,
+    "description": "Aan de slag met nieuwe technologieën, onder onze begeleiding.",
+    "tags": [
+      "guestLectures",
+      "project",
+      "sessions"
+    ],
+    "pillar": "code",
+    "tracks": ["next-web-developer"],
+    "tools": "",
+    "preview": "In deze modules dompelenen we je onder in de meest nieuwe en …",
+    "basename": "future-technologies"
+  }
+}

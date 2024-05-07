@@ -1,0 +1,16 @@
+{
+  "user-experience-design": {
+    "title": "User Experience Design",
+    "semester": 1,
+    "weight": 40,
+    "tags": [
+      "ux",
+      "userOriented",
+      "prototype"
+    ],
+    "pillar": "design",
+    "tools": "Adobe XD, pen & papier",
+    "preview": "In deze module leren we **designen voor de eindgebruiker**. We …",
+    "basename": "user-experience-design"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "mlops": {
+    "title": "MLOps",
+    "aliases": [
+      "ai-cloud-services-devops"
+    ],
+    "semester": 5,
+    "weight": 10,
+    "tags": [
+      "Kubernetes",
+      "CI/CD",
+      "AutomatedAI",
+      "CloudAI"
+    ],
+    "pillar": "code",
+    "tracks": [
+      "ai-engineer"
+    ],
+    "preview": "In de module MLOps leren we AI modellen, ontwikkeld in <a …",
+    "basename": "mlops"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "prototyping": {
+    "title": "Prototyping",
+    "semester": 1,
+    "weight": 50,
+    "tags": [
+      "arduino",
+      "sensoren",
+      "microcontroller",
+      "prototyping"
+    ],
+    "pillar": "project",
+    "preview": "Met behulp van een microcontrollerboard (b.v. een Arduino UNO) en …",
+    "basename": "prototyping"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "iot-cloud": {
+    "title": "IoT Cloud",
+    "semester": 3,
+    "weight": 30,
+    "tags": [
+      "azure",
+      "mqtt",
+      "webservices",
+      "iothub"
+    ],
+    "pillar": "analysis",
+    "preview": "IoT zonder cloud is onmogelijk. Deze module bevat 3 grote delen. We …",
+    "basename": "iot-cloud"
+  }
+}

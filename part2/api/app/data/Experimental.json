@@ -1,0 +1,17 @@
+{
+  "Experimental": {
+    "title": "Experimental XR",
+    "semester": 5,
+    "weight": 10,
+    "tags": [
+      "humanInterfaces",
+      "extendedInteraction"
+    ],
+    "pillar": "code",
+    "tracks": [
+      "smart-xr-developer"
+    ],
+    "preview": "**Onder voorbehoud**\n\nExtended Reality applicaties gaan koppelen aan …",
+    "basename": "Experimental"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "full-stack-web-development": {
+    "title": "Full Stack Web Development",
+    "semester": 2,
+    "weight": 10,
+    "tags": [
+      "Python",
+      "Flask",
+      "Javascript",
+      "Jinja"
+    ],
+    "pillar": "code",
+    "preview": "**In deze module kan je leren hoe je een volledig API-driven website …",
+    "basename": "full-stack-web-development"
+  }
+}

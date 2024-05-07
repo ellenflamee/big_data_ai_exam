@@ -1,0 +1,14 @@
+{
+  "interaction-design": {
+    "title": "Interaction Design",
+    "semester": 3,
+    "weight": 40,
+    "tags": [
+      "dashboards",
+      "datavisualisatie"
+    ],
+    "pillar": "design",
+    "preview": "In deze module integreren we kennis uit het eerste jaar (<a …",
+    "basename": "interaction-design"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "advanced-programming-maths": {
+    "title": "Advanced Programming & Maths",
+    "semester": 4,
+    "weight": 10,
+    "tags": [
+      "python",
+      "pandas",
+      "algorithm",
+      "maths"
+    ],
+    "pillar": "analysis",
+    "tracks": [
+      "ai-engineer"
+    ],
+    "preview": "Deze module ondersteunt rechtstreeks de modules <a …",
+    "basename": "advanced-programming-maths"
+  }
+}

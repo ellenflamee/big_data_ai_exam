@@ -1,0 +1,19 @@
+{
+  "mixed-reality": {
+    "title": "Augmented & Mixed Reality",
+    "semester": 5,
+    "weight": 30,
+    "tags": [
+      "AR",
+      "MR",
+      "Unity",
+      "hololens"
+    ],
+    "pillar": "design",
+    "tracks": [
+      "smart-xr-developer"
+    ],
+    "preview": "Het doel van deze module is om kennis te maken met Augmented Reality …",
+    "basename": "mixed-reality"
+  }
+}

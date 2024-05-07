@@ -1,0 +1,16 @@
+{
+  "stage-bachelorproef": {
+    "title": "Stage in binnen- of buitenland & Bachelorproef",
+    "semester": 6,
+    "weight": 10,
+    "tags": [
+      "teamwork",
+      "entrepreneur",
+      "projectmanagement",
+      "integration"
+    ],
+    "pillar": "project",
+    "preview": "Als sluitstuk van de opleiding komt de **reële ervaring** met het …",
+    "basename": "stage-bachelorproef"
+  }
+}

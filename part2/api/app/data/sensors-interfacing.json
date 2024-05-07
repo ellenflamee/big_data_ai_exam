@@ -1,0 +1,16 @@
+{
+  "sensors-interfacing": {
+    "title": "Sensors & Interfacing",
+    "semester": 2,
+    "weight": 20,
+    "tags": [
+      "raspberrypi",
+      "sensoren",
+      "protocol",
+      "bitoperaties"
+    ],
+    "pillar": "connect",
+    "preview": "Met behulp van een single board computer (b.v. Raspberry Pi) en …",
+    "basename": "sensors-interfacing"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "data-management": {
+    "title": "Data Management",
+    "semester": 2,
+    "weight": 30,
+    "tags": [
+      "T-SQL",
+      "DBMS",
+      "MYSQL",
+      "BCNF"
+    ],
+    "pillar": "analysis",
+    "preview": "Data en databases zijn niet weg te denken uit onze hedendaagse …",
+    "basename": "data-management"
+  }
+}

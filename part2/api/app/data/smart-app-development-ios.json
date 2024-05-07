@@ -1,0 +1,20 @@
+{
+  "smart-app-development-ios": {
+    "title": "Smart App Development",
+    "semester": 4,
+    "weight": 20,
+    "tags": [
+      "expo",
+      "reactNative",
+      "iOS",
+      "Android"
+    ],
+    "pillar": "code",
+    "tools": "Expo, webpack, JS, ReactNative, Lottie",
+    "tracks": [
+      "next-web-developer"
+    ],
+    "preview": "**Smart App Development — Hoe maken we performante en mooie apps die …",
+    "basename": "smart-app-development-ios"
+  }
+}

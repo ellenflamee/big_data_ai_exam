@@ -1,0 +1,16 @@
+{
+  "project-2": {
+    "title": "Team Project",
+    "semester": 3,
+    "weight": 50,
+    "tags": [
+      "agile",
+      "sprints",
+      "teamwork",
+      "projectmanagement"
+    ],
+    "pillar": "project",
+    "preview": "Na alle modules en examens uit Semester 3 (Device Programming 2, …",
+    "basename": "project-2"
+  }
+}

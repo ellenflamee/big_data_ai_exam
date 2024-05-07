@@ -1,0 +1,19 @@
+{
+  "new-interface-design": {
+    "title": "New Interface Design",
+    "semester": 5,
+    "weight": 30,
+    "tags": [
+      "ar",
+      "glasses",
+      "homepod",
+      "tesla"
+    ],
+    "pillar": "design",
+    "tracks": [
+      "next-web-developer"
+    ],
+    "preview": "In deze module gaan we aan de slag met nieuwe interfaces. We bouwen …",
+    "basename": "new-interface-design"
+  }
+}

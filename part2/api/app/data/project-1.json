@@ -1,0 +1,17 @@
+{
+  "project-1": {
+    "title": "Project One",
+    "semester": 2,
+    "weight": 50,
+    "tags": [
+      "waterfall",
+      "pm",
+      "prototyping",
+      "maker",
+      "integrate"
+    ],
+    "pillar": "project",
+    "preview": "**Project One is je eerste integratiemodule: je bewijst door …",
+    "basename": "project-1"
+  }
+}

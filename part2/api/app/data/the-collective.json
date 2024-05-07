@@ -1,0 +1,22 @@
+{
+  "the-collective": {
+    "title": "The Collective",
+    "semester": 5,
+    "weight": 40,
+    "tags": [
+      "international",
+      "business",
+      "mvp",
+      "entrepreneurs"
+    ],
+    "pillar": "project",
+    "tracks": [
+      "smart-xr-developer",
+      "next-web-developer",
+      "ai-engineer",
+      "infrastructure-engineer"
+    ],
+    "preview": "**The Collective is a module that requires international and / or …",
+    "basename": "the-collective"
+  }
+}

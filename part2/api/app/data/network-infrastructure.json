@@ -1,0 +1,19 @@
+{
+  "network-infrastructure": {
+    "title": "Network Infrastructure",
+    "semester": 4,
+    "weight": 10,
+    "tags": [
+      "CCNA1+2",
+      "corporateNetworking",
+      "IProuting",
+      "cabling"
+    ],
+    "pillar": "connect",
+    "tracks": [
+      "infrastructure-engineer"
+    ],
+    "preview": "Je hebt gekozen voor het afstudeerprofiel 'Infrastructure Engineer'. …",
+    "basename": "network-infrastructure"
+  }
+}

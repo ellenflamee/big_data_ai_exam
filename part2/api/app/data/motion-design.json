@@ -1,0 +1,19 @@
+{
+  "motion-design": {
+    "title": "Motion Design",
+    "semester": 4,
+    "weight": 40,
+    "tags": [
+      "AfterEffects",
+      "XD",
+      "ImmersiveInterfaces",
+      "VisualStorytelling"
+    ],
+    "pillar": "design",
+    "tracks": [
+      "next-web-developer"
+    ],
+    "preview": "Naast een goede User Interface (UI), is **User Experience** (UX) …",
+    "basename": "motion-design"
+  }
+}

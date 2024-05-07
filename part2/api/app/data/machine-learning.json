@@ -1,0 +1,18 @@
+{
+  "machine-learning": {
+    "title": "Machine Learning",
+    "semester": 4,
+    "weight": 30,
+    "tags": [
+      "neuralnetworks",
+      "ai",
+      "machinelearning"
+    ],
+    "pillar": "analysis",
+    "tracks": [
+      "ai-engineer"
+    ],
+    "preview": "IoT en machine learning zijn de drijvende krachten van de vierde …",
+    "basename": "machine-learning"
+  }
+}
