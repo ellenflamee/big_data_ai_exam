@@ -6,25 +6,22 @@ services:
       context: ./pointsApp
       dockerfile: Dockerfile
     ports:
-      - "5001:5001"
+      - "5001:5001"  # Ensure correct internal port mapping
     environment:
-      - POSTGRES_DB=mydatabase
-      - POSTGRES_USER=myuser
-      - POSTGRES_PASSWORD=mypassword
-    labels:
-      - "traefik.enable=true"
-      - "traefik.http.routers.web.rule=Host(`api.local`)"
-      - "traefik.http.services.web.loadbalancer.server.port=5001"
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
     networks:
       - web
       - database
 
   db:
     image: ghcr.io/eslih/postgres:16.1-alpine
+    platform: linux/amd64  # or use another platform-specific image
     environment:
-      - POSTGRES_DB=mydatabase
-      - POSTGRES_USER=myuser
-      - POSTGRES_PASSWORD=mypassword
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
     healthcheck:
       test: [ "CMD", "pg_isready", "-U", "myuser" ]
       interval: 1m30s
@@ -33,23 +30,6 @@ services:
       start_period: 30s
     networks:
       - database
-
-  reverse-proxy:
-    image: traefik:v2.11
-    command:
-      - "--api.insecure=true"
-      - "--providers.docker"
-    ports:
-      - "80:80"
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock:ro
-    labels:
-      - "traefik.enable=true"
-      - "traefik.http.routers.traefik.rule=Host(`traefik.local`)"
-      - "traefik.http.services.traefik.loadbalancer.server.port=8080"
-      - "traefik.http.middlewares.admin.basicauth.users=USERNAME:ENCRYPTED_PASSWORD"
-    networks:
-      - web
 
 networks:
   web:
