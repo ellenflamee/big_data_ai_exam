@@ -2,13 +2,55 @@ version: '3.9'
 
 services:
   web:
+    build:
+      context: ./pointsApp
+      dockerfile: Dockerfile
+    ports:
+      - "5001:5001"
+    environment:
+      - POSTGRES_DB=mydatabase
+      - POSTGRES_USER=myuser
+      - POSTGRES_PASSWORD=mypassword
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.web.rule=Host(`api.local`)"
+      - "traefik.http.services.web.loadbalancer.server.port=5001"
     networks:
       - web
+      - database
+
   db:
     image: ghcr.io/eslih/postgres:16.1-alpine
     environment:
-      - POSTGRES_DB=${POSTGRES_DB}
-      - POSTGRES_USER=${POSTGRES_USER}
-      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=mydatabase
+      - POSTGRES_USER=myuser
+      - POSTGRES_PASSWORD=mypassword
+    healthcheck:
+      test: [ "CMD", "pg_isready", "-U", "myuser" ]
+      interval: 1m30s
+      timeout: 30s
+      retries: 5
+      start_period: 30s
     networks:
       - database
+
+  reverse-proxy:
+    image: traefik:v2.11
+    command:
+      - "--api.insecure=true"
+      - "--providers.docker"
+    ports:
+      - "80:80"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.traefik.rule=Host(`traefik.local`)"
+      - "traefik.http.services.traefik.loadbalancer.server.port=8080"
+      - "traefik.http.middlewares.admin.basicauth.users=USERNAME:ENCRYPTED_PASSWORD"
+    networks:
+      - web
+
+networks:
+  web:
+  database:

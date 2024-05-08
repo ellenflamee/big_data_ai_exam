@@ -1,0 +1,7 @@
+# Exclude sensitive environment file
+.env
+
+# Exclude any unwanted system or temp files
+*.pyc
+__pycache__/
+*.log
