@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend
+  namespace: exam-ellenflamee
+  labels:
+    app: frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: frontend
+  template:
+    metadata:
+      labels:
+        app: frontend
+    spec:
+      containers:
+      - name: frontend
+        image: ellenflamee/big_data_and_ai-24_may_frontend:versie1
+        ports:
+        - containerPort: 80
+        env:
+        - name: API_PORT
+          value: "80"            # API_PORT should be 80
+        - name: API_HOST
+          value: "backend-service"  # Correct Kubernetes service name of the backend API
+        - name: NAME
+          value: "ellenflamee"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: frontend-service
+  namespace: exam-ellenflamee
+spec:
+  type: NodePort
+  selector:
+    app: frontend
+  ports:
+  - port: 80
+    targetPort: 80
+    nodePort: 30001

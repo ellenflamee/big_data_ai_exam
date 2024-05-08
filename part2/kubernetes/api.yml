@@ -1,46 +1,41 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: api
-  namespace: howest-api
+  name: backend
+  namespace: exam-ellenflamee
   labels:
-    # Replace this by your own name
-    createdBy: "Nathan-Segers"
-  
+    app: backend
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: app
+      app: backend
   template:
     metadata:
       labels:
-        app: api
+        app: backend
     spec:
       containers:
-        - image: nathansegers/big_data_and_ai-24_may_api
-          imagePullPolicy: Always
-          name: api-demo
-          ports:
-            - containerPort: 80
-          resources: {}
-          livenessProbe:
-            httpGet:
-              path: /
-              port: 80
-            initialDelaySeconds: 15
-            periodSeconds: 10
-         
+      - name: backend
+        image: ellenflamee/big_data_and_ai-24_may_api:versie1
+        ports:
+        - containerPort: 80
+        env:
+        - name: NAME
+          value: "YourName"
+        - name: DATA
+          value: "YourData"
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: api-service
+  name: backend-service
+  namespace: exam-ellenflamee
 spec:
   type: NodePort
   selector:
-    app: app
+    app: backend
   ports:
-    - port: 80
-      targetPort: 8000
-      nodePort: 30002
+  - port: 80
+    targetPort: 80
+    nodePort: 30000
